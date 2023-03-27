@@ -1,0 +1,23 @@
+.infoBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ff0a54;
+  border-radius: 7.5px 7.5px 0 0;
+  padding: 2.5rem 1.75rem;
+  width: 100%;
+}
+
+.leftInnerContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+}
+
+.rightInnerContainer {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}

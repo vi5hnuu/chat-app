@@ -1,0 +1,9 @@
+.chip {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #a4133c;
+  padding: 0.5rem 0.75rem;
+  border-radius: 50px;
+}

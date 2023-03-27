@@ -1,0 +1,66 @@
+.Container {
+  width: 35rem;
+  max-width: 90%;
+}
+
+.heading {
+  color: #fae0e4;
+  text-align: center;
+  font-size: 2.5em;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #f8ad9d;
+}
+
+.joinInput {
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  width: 100%;
+  border-bottom: 3px solid transparent;
+}
+.joinInput {
+  margin-bottom: 1.5rem;
+}
+.joinInput:first-of-type {
+  margin-bottom: 0.75rem;
+}
+.joinInput:focus {
+  transition: all 0.5s;
+  outline: 2px solid #922d24;
+  border-bottom: 3px solid#922d24;
+}
+
+.btn {
+  color: #c9184a;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #fbc4ab;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+}
+.btn:hover {
+  transition: all 1s;
+  color: #a4133c;
+  background-color: #f8ad9d;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+}
+
+button:focus {
+  outline: 0;
+}
